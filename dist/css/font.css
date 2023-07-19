@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../font/AvenirNext-Medium.eot");
+  src: url("../font/AvenirNext-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../font/AvenirNext-Medium.woff2") format("woff2"),
+    url("../font/AvenirNext-Medium.woff") format("woff"),
+    url("../font/AvenirNext-Medium.ttf") format("truetype"),
+    url("../font/AvenirNext-Medium.svg#AvenirNext-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../font/AvenirNext-Bold.eot");
+  src: url("../font/AvenirNext-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../font/AvenirNext-Bold.woff2") format("woff2"),
+    url("../font/AvenirNext-Bold.woff") format("woff"),
+    url("../font/AvenirNext-Bold.ttf") format("truetype"),
+    url("../font/AvenirNext-Bold.svg#AvenirNext-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next Demi";
+  src: url("../font/AvenirNext-DemiBold.eot");
+  src: url("../font/AvenirNext-DemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../font/AvenirNext-DemiBold.woff2") format("woff2"),
+    url("../font/AvenirNext-DemiBold.woff") format("woff"),
+    url("../font/AvenirNext-DemiBold.ttf") format("truetype"),
+    url("../font/AvenirNext-DemiBold.svg#AvenirNext-DemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

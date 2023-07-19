@@ -1,0 +1,186 @@
+:root {
+  /*  Font size */
+  --fs82: 82px;
+  --fs80: 80px;
+  --fs50: 50px;
+  --fs44: 44px;
+  --fs26: 26px;
+  --fs24: 24px;
+  --fs22: 22px;
+  --fs18: 18px;
+
+  /* Font weight */
+  --fs200: 200;
+  --fw300: 300;
+  --fw400: 400;
+  --fw500: 500;
+  --fw600: 600;
+  --fw700: 700;
+  --fs800: 800;
+  --fw900: 900;
+
+  /* color */
+  --black: #000000;
+  --white: #fff;
+  --orange: #f29932;
+  --lightblue: #eefafe;
+  --grey: #627584;
+}
+
+/*  Colors */
+.txt-black {
+  color: var(--black);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.txt-white {
+  color: var(--white);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.txt-orange {
+  color: var(--orange);
+}
+.bg-lightblue {
+  background-color: var(--lightblue);
+}
+.txt-grey {
+  color: var(--grey);
+}
+/* Color End */
+
+/* Font size */
+
+h1,
+.h1 {
+  font-size: var(--fs82);
+  font-weight: bold;
+  line-height: 102px;
+  margin: 7px 0px 15px;
+}
+h2,
+.h2 {
+  font-size: var(--fs50);
+  font-weight: bold;
+  /* line-height: 102px; */
+}
+h3,
+.h3 {
+  font-size: var(--fs44);
+}
+h4,
+.h4 {
+  font-size: var(--fs26);
+}
+h5,
+.h5 {
+  font-size: var(--fs24);
+}
+h6,
+.h6 {
+  font-size: var(--fs22);
+}
+p,
+.p {
+  font-size: var(--fs18);
+}
+.fs80 {
+  font-size: var(--fs80);
+}
+/* Font Size End */
+
+/* font-weight */
+.fw200 {
+  font-weight: var(--fw200);
+}
+.fw300 {
+  font-weight: var(--fw300);
+}
+.fw400 {
+  font-weight: var(--fw400);
+}
+.fw500 {
+  font-weight: var(--fw500);
+}
+.fw600 {
+  font-weight: var(--fw600);
+}
+.fw700 {
+  font-weight: var(--fw700);
+}
+.fw800 {
+  font-weight: var(--fw800);
+}
+.fw900 {
+  font-weight: var(--fw900);
+}
+/*Font */
+
+/* line height */
+.ln28 {
+  line-height: 28px;
+}
+.ln30 {
+  line-height: var(--fs30);
+}
+.ln35 {
+  line-height: 35px;
+}
+.ln40 {
+  line-height: var(--fs40);
+}
+.ln45 {
+  line-height: 45px;
+}
+.ln58 {
+  line-height: 58px;
+}
+.ln75 {
+  line-height: 75px;
+}
+.ln85 {
+  line-height: 85px;
+}
+.ln94 {
+  line-height: 94px;
+}
+
+/*  opacity*/
+.op03 {
+  opacity: 0.3;
+}
+/*  */
+.mt55 {
+  margin-top: 55px;
+}
+
+.btn {
+  padding: 23px 37px;
+  font-size: 24px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-orange {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  background-color: transparent;
+}
+.btn-white {
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  color: var(--black);
+}
+.btn-black {
+  background-color: var(--black);
+  border: 2px solid var(--black);
+  color: var(--white);
+}
+.btn-gradient {
+  background: transparent linear-gradient(146deg, #56b7e5 0%, #5c77b9 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 3px 3px 10px #0042f74b;
+  color: var(--white);
+}

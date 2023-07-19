@@ -1,0 +1,799 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Avenir Next";
+}
+.container-fluid {
+  max-width: 1720px;
+  margin: auto;
+}
+.demi-bold {
+  font-family: "Avenir Next Demi";
+}
+.bg-property {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a:hover {
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.active {
+  font-weight: 600;
+}
+button:focus {
+  outline: 0px;
+}
+input:focus {
+  box-shadow: none;
+}
+.content-head {
+  text-align: center;
+}
+.content-head h3 {
+  color: var(--black);
+  font-weight: 600;
+  position: relative;
+}
+.content-head h3:after {
+  content: "";
+  display: block;
+  width: 85px;
+  height: 3px;
+  background: var(--orange);
+  bottom: -25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content-head h6 {
+  line-height: 40px;
+  max-width: 1252px;
+  color: #627584;
+  margin: 45px auto 0px;
+}
+a {
+  text-decoration: none;
+}
+.audit-chart .navbar-brand:hover {
+  color: white;
+  cursor: default;
+}
+/* Body Common properties */
+
+/*  header section */
+
+.head_list a {
+  font-size: var(--fs18);
+  color: var(--white) !important;
+  margin: 0px 21px;
+}
+.head_list .button1 {
+  padding: 13px 28px;
+  font-size: var(--fs18);
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-left: 25px;
+  font-family: "Avenir Next Demi";
+}
+
+/*  header section end*/
+
+/*  main banner start */
+.mainHead {
+  padding: 159px 0px;
+  display: flex;
+}
+.mainHead-left {
+  width: 50%;
+}
+.mainHead-content {
+  color: var(--white);
+  max-width: 791px;
+}
+.mainHead-content h4 {
+  line-height: 44px;
+  font-family: "Avenir Next Demi";
+}
+.mainHead-content .btn-orange {
+  margin-top: 63px;
+}
+/*  main banner end */
+
+/* Why to choose start */
+.plus-sign {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.why-to-choose {
+  padding: 52px 0px 71px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 20px #002e7321;
+  margin-top: -97px;
+  background-color: #ffffff;
+}
+.why-list-padding {
+  padding-left: 50px;
+  padding-right: 10px;
+}
+.billion-sign {
+  font-weight: 300;
+}
+.why-content {
+  margin-top: 75px;
+  padding: 0px 151px;
+}
+.why-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.why-list li {
+  width: calc(100% / 4);
+  /* margin: 0px 20px; */
+}
+.why-list li h2 {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+}
+.why-list li:not(:last-child) {
+  border-right: 2px solid lightgray;
+}
+.why-list li h6 {
+  color: #627584;
+  margin-top: 10px;
+}
+.audit-content-ul {
+  display: flex;
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+}
+.audit-content-li {
+  width: calc(100% / 6 - 20px) !important;
+}
+/* Why to choose end */
+
+/*  Audit process start*/
+.audit-process {
+  padding: 110px 0px 120px;
+  background-color: var(--white);
+  margin-top: 10px;
+}
+.audit-content {
+  margin-top: 56px;
+  text-align: center;
+}
+.audit-list {
+  display: flex;
+  margin-top: 26px;
+  justify-content: space-evenly;
+}
+.audit-list li {
+  width: calc(100% / 6);
+  color: var(--black);
+  font-weight: bold;
+  line-height: 30px;
+  padding: 5px 10px;
+}
+.button2 {
+  padding: 18px 34px;
+  background-color: #f29932;
+  border: 0px;
+  margin-top: 95px;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 5px;
+  margin: 95px auto 0px;
+  display: flex;
+  font-size: 18px;
+  font-family: "Avenir Next Demi";
+}
+/*  Audit process end*/
+
+/*  blue section css start*/
+.Blue-section {
+  position: relative;
+}
+.nav-font {
+  font-size: 26px !important;
+  font-family: "Avenir Next Demi";
+}
+.nav-bar-padding {
+  padding-bottom: 0px;
+}
+.list-full {
+  width: 25% !important;
+}
+.audit-button {
+  padding: 10px 15px;
+  border: 1px solid white;
+  display: none;
+  color: white;
+  background-color: transparent;
+  border-radius: 50%;
+  /* margin: 0px auto; */
+  /* text-align: center; */
+  /* display: flex; */
+  margin-left: 50%;
+  /* justify-content: center; */
+  /* position: fixed; */
+  z-index: 999;
+}
+.Blue-section::before {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  pointer-events: none;
+  background: transparent linear-gradient(231deg, #003a89 0%, #000e46 100%) 0%
+    0% no-repeat padding-box;
+}
+.fa-angle-right {
+  padding: 5px 10px;
+}
+.audit {
+  padding: 96px 0px 126px;
+}
+.audit .content-head h3 {
+  color: var(--white);
+}
+.audit .content-head h6 {
+  color: var(--white);
+  max-width: 730px;
+  margin: 45px auto 0px;
+  position: relative;
+}
+.audit-chart {
+  margin-top: 75px;
+}
+.audit-chart .navbar-brand {
+  color: white;
+  font-size: 23px;
+  margin-left: 26px;
+}
+.audit-chart .search-input {
+  width: 520px;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 27px 40px;
+  margin-left: 46px;
+  position: relative;
+  color: white;
+}
+.audit-chart .nav-item a {
+  padding: 21px 10px;
+  font-size: 16px;
+  width: 100%;
+}
+.audit-chart .nav-item-first {
+  background-color: #00124a;
+  border-radius: 10px 10px 0px 0px;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: #00124a;
+  border-color: #0930a8;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+.audit-chart .nav-link {
+  color: #023fb7;
+  font-size: 16px;
+  font-weight: 900;
+}
+.nav-tabs {
+  border: none;
+  width: 100%;
+}
+
+.nav-item-second {
+  background-color: #002265;
+  border: #0930a8 1px solid;
+}
+.main-audit-list {
+  background-color: #001b59;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+.button-hover-li h6 button {
+  border: none;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+.audit-list1 {
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2px;
+}
+.audit-list-main {
+  background-color: #00124a;
+}
+.audit-list1 li {
+  width: calc(100% / 6);
+  padding: 19px;
+}
+.demo-icon {
+  width: 43px;
+  height: 43px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.demo-icon img {
+  width: 23px;
+  height: 23px;
+}
+.btn1 {
+  padding: 17px 51px;
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 18px;
+  margin-top: 77px;
+  text-transform: uppercase;
+  border: 0px;
+  display: flex;
+  margin: 77px auto 0px;
+  font-family: "Avenir Next Demi";
+}
+.search-input1 {
+  display: flex;
+  width: 100%;
+}
+.after-image {
+  display: none;
+}
+button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.nav-item {
+  width: 320px;
+}
+.nav-link {
+  display: flex;
+  justify-content: center;
+}
+.audit-list-main h6 {
+  text-transform: uppercase;
+  /* font-weight: 600; */
+}
+.over-lap {
+  display: flex;
+}
+.over-lap div {
+  border-radius: 30px;
+  background-color: #02164a;
+}
+
+.over-lap div:not(:first-child) {
+  margin-left: -25px;
+}
+.is_open .side-bar {
+  display: block;
+}
+.side-bar.is_close {
+  display: none;
+}
+.my-container {
+  width: 100%;
+}
+#menu-btn {
+  border: none;
+  background-color: transparent;
+}
+.audit-chart,
+.modaltablepopup .audit-chart {
+  display: flex !important;
+}
+.modaltablepopup .my-container .navbar {
+  position: sticky;
+}
+.right-arrow {
+  display: flex;
+  justify-content: center;
+}
+.side-bar {
+  width: 548px;
+  background-color: #eefafe;
+  /* height: 700px; */
+  margin-left: -70px;
+  margin-right: 30px;
+  display: none;
+  transition: all 1000ms ease-in;
+}
+.demo-project-icon {
+  display: flex;
+  justify-content: center;
+}
+.btn-link .fa-angle-right {
+  color: white;
+}
+.side-bar .nav-item {
+  width: 100% !important;
+  padding: 33px 30px 25px 100px;
+}
+
+.side-bar .nav-link {
+  justify-content: start;
+}
+.is_open .icon {
+  margin-left: 0px;
+}
+#nav_accordion li a {
+  color: #627584;
+  font-size: 28px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.filter {
+  margin-right: 12px;
+}
+.side-bar .head {
+  background-color: #001b59;
+  border: 1px solid grey;
+  padding: 22px 10px 22px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.side-bar .head button {
+  margin-right: px;
+  border: none;
+  background-color: transparent;
+}
+.side-bar-list label {
+  color: #627584;
+  font-size: 20px;
+  margin: 10px 0px 10px 21px;
+}
+
+.has-submenu {
+  border-bottom: 3px solid #ddf5fd;
+  padding: 10px 0px;
+}
+.side-bar {
+  overflow: hidden;
+}
+.button-hover-ul {
+  border: 1px solid #043dbe;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 21px 0px;
+  background-color: #011a53;
+  /* width: 100%; */
+}
+.button-hover-li {
+  width: calc(100% / 6);
+  color: white;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+.side-bar-input {
+  padding: 20px 20px 19px 25px;
+  border: 1px solid #627584;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 44px 0px;
+  font-size: 18px;
+  color: #627584;
+}
+.slick-center {
+  margin-top: -25px !important;
+}
+.check-box {
+  width: 18px;
+  height: 18px;
+}
+
+.h6-underline {
+  text-decoration: underline;
+}
+.side-bar .project-type {
+  padding: 0px !important;
+}
+.h6-nft {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.audit-list-content {
+  background-color: #00124a;
+  padding: 0px 10px 10px;
+}
+.nav-tabs .nav-item {
+  margin: 0px 1px;
+  width: 100%;
+  width: 100% !important;
+  border-radius: 10px 10px 0px 0px;
+  width: calc(100% / 3 - 5px) !important;
+  flex-wrap: wrap;
+  display: flex;
+}
+.accordion img {
+  padding-right: 15px;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon {
+  padding: 18px 11px;
+  min-width: 50px;
+  /* text-align: center; */
+  color: white;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+}
+.slick-dots li button:before {
+  font-size: 20px;
+  opacity: 0.5;
+  border: 2px solid #5b79ba;
+  border-radius: 50%;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  background: transparent linear-gradient(170deg, #56b7e5 0%, #5c77b9 100%) 0%
+    0% no-repeat padding-box;
+}
+.private-content {
+  justify-content: center;
+}
+
+/*                                                               blue section css end*/
+
+/*                                                                 Customer section start */
+.customer {
+  padding: 107px 0px 129px;
+}
+.customer .content-head h6 {
+  color: #627584;
+  max-width: 1004px;
+  margin: 45px auto 0px;
+}
+.customer-section {
+  position: relative;
+}
+.customer-content {
+  margin-top: 114px;
+}
+.customer-content-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.slick-slide img {
+  display: inline;
+}
+.customer-content-li ::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  width: 49%;
+  height: 285px;
+  background: transparent linear-gradient(95deg, #56b7e5 32%, #5c77b9 95%) 0 0
+    no-repeat padding-box;
+  transform: skew(8deg, 9deg) rotate(8deg);
+  left: 0;
+  clip-path: polygon(90% 98%, 91% 100%, 0 100%, 0 92%);
+}
+.customer-content-li ::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  width: 55%;
+  height: 130px;
+  background: transparent linear-gradient(165deg, #5c77b9 72%, #56b7e5 88%) 0 0
+    no-repeat padding-box;
+  transform: skew(351deg, 352deg) rotate(351deg);
+  right: 0;
+  clip-path: polygon(100% 81%, 100% 100%, 13% 100%, 22% 97%);
+  z-index: -1;
+}
+.customer-content-li {
+  width: calc(100% / 3 - 34px);
+  margin: 0px 17px;
+  background-color: var(--white);
+  text-align: center;
+  padding: 34px 10px 29px;
+  background: #fff;
+  position: relative;
+  box-shadow: 3px -9px 20px 0 rgb(25 90 214 / 15%);
+  padding-bottom: 30px;
+  z-index: -1;
+}
+.img-front {
+  position: absolute;
+  left: 38%;
+  height: 97px;
+}
+.customer-content-li figcaption p {
+  color: #627584;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.customer-content-li figcaption .customer-para {
+  max-width: 330px;
+  margin: 32px auto 84px;
+  height: 120px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.customer-content-ul .draggable {
+  padding: 40px 0px 100px;
+}
+/*  Customer section end */
+
+/*  Partner css start */
+.partner {
+  padding: 106px 0px 108px;
+}
+.partner-list {
+  margin-top: 100px;
+}
+.partner-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partner-list-li {
+  width: calc(100% / 5);
+  border-radius: 10px;
+  display: flex;
+}
+/*  Partner  css end*/
+
+/* request css start */
+.request {
+  padding: 34px 0px;
+}
+.request-content-left {
+  max-width: 692px;
+  padding: 10px;
+}
+.request-content-left h4 {
+  line-height: 40px;
+}
+.request-content-left .btn-gradient {
+  margin-top: 43px;
+}
+.request-content-pad {
+  /* padding: 40px 0px; */
+  margin-bottom: 60px;
+}
+
+/* request css end */
+
+/*  footer */
+.foot {
+  padding-top: 42px;
+  padding-bottom: 27.9px;
+}
+.foot figure {
+  text-align: center;
+  padding-bottom: 97px;
+}
+.foot-list {
+  display: flex;
+  position: relative;
+}
+.foot-list:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: grey;
+  /* bottom: -25px; */
+  top: -20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.foot-list:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: grey;
+  bottom: 20px;
+  /* top: 0px; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sub-foot {
+  width: calc(100% / 2);
+}
+.foot-list-content h6 {
+  color: #56b7e5;
+  text-transform: uppercase;
+  font-family: "Avenir Next Demi";
+  line-height: 40px;
+}
+.foot-list-content i {
+  color: black;
+  background-color: var(--white);
+  padding: 5px;
+  border-radius: 5px;
+  height: 25px;
+}
+.foot-list-content .foot-list-ul {
+  padding-top: 28px;
+  padding-bottom: 72px;
+}
+.foot-list-ul > li {
+  display: flex;
+  padding-bottom: 16px;
+  flex-direction: row;
+}
+.foot-list-ul li h6 {
+  max-width: 304px;
+}
+.foot-list-ul li h6 a {
+  color: var(--white);
+  line-height: 36px;
+  margin-left: 9px;
+}
+.stay-connected {
+  display: flex;
+  justify-content: center;
+}
+
+.foot-last {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-last p,
+a {
+  color: var(--white);
+}
+.locationDot {
+  margin-top: 5px;
+}
